@@ -3,8 +3,7 @@
 </p>
 
 
-# Blog API - Matias Garcia - Bootcamp Backend
-
+# RIE+
 1. Debemos clonar el proyecto
 
 2. Ejecutar comando ```npm install```
@@ -13,10 +12,11 @@
 
 4. Cambiar las variables de entorno
 
-5. Abrir MongoDBCompass y conectarse a la base de datos
+5. Ejecutar prisma
 
 ```
-mongodb://127.0.0.1:27017/project-final
+npx prisma init
+npx prisma migrate dev --name init
 
 ```
 
