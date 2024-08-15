@@ -2,6 +2,8 @@
 # compiled output
 /dist
 /node_modules
+/postgres
+/prisma
 
 # Logs
 logs
